@@ -1,0 +1,4 @@
+To run COMSOL with Java model from command line you need:
+comsol compile -jdkroot /path_to_java Traport_and_adsorption.java
+
+Still we need to sort out what needs to be added in the above command in order to export automatically the report.docx
