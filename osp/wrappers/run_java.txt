@@ -1,4 +1,6 @@
 To run COMSOL with Java model from command line you need:
-comsol compile -jdkroot /path_to_java Traport_and_adsorption.java
+comsol compile -jdkroot /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.65-3.b17.el7.x86_64/bin/java Transport_and_adsorption_cluster.java
 
-Still we need to sort out what needs to be added in the above command in order to export automatically the report.docx
+/usr/local/bin/comsol batch -inputfile Transport_and_adsorption_cluster.class
+
+Still we need to sort out how to include figures in the generated report.
