@@ -3,4 +3,4 @@ comsol compile -jdkroot /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.65-3.b17.el7.x86_6
 
 /usr/local/bin/comsol batch -inputfile Transport_and_adsorption_cluster.class
 
-Still we need to sort out how to include figures in the generated report.
+The generated word report is the "test_java.docx". Still we need to sort out how to include figures in the generated report.
