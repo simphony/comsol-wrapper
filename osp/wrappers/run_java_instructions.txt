@@ -1,0 +1,20 @@
+Bellow we describe how to run COMSOL with Java model from command line
+
+If you want a Microsoft Word output report use:
+
+comsol compile -jdkroot /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.65-3.b17.el7.x86_64/bin/java Transport_and_adsorption_cluster.java
+
+/usr/local/bin/comsol batch -inputfile Transport_and_adsorption_cluster.class
+
+The generated word report is the "test_java.docx". Still we need to sort out how to include figures in the generated report.
+
+
+If you want an HTML output report use:
+
+comsol compile -jdkroot /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.65-3.b17.el7.x86_64/bin/java Transport_and_adsorption_cluster_html.java
+
+/usr/local/bin/comsol batch -inputfile Transport_and_adsorption_cluster_html.class
+
+The generated word report is the "test_java.html" and the figures of the report are included in the generated file "test_java.files"
+
+
