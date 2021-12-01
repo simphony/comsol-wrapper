@@ -1,6 +1,8 @@
-Compatible with OSP-core v3.3.2
+This wrapper is under development. Do not expect the code in this repository to be functional or even useful yet.
 
-# Dummy Simulation Wrapper
+Compatible with OSP-core v3.3.2.
+
+# COMSOL Dummy Simulation Wrapper
 
 A very simple simulation wrapper, that can be used as an example for wrapper development.
 
